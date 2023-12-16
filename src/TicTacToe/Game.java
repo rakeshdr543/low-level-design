@@ -1,4 +1,4 @@
-package ticTacToe;
+package TicTacToe;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

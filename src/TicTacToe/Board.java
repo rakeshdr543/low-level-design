@@ -1,4 +1,4 @@
-package ticTacToe;
+package TicTacToe;
 
 import java.util.ArrayList;
 import java.util.List;
