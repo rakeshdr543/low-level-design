@@ -1,3 +1,4 @@
+import Atm.AtmRoom;
 import Logger.InfoLogProcessor;
 import Logger.LogProcessor;
 import Logger.WarningLogProcessor;
@@ -9,9 +10,13 @@ import SnakeLadder.Game;
 public class Main {
     public static void main(String[] args) {
 
+        // ATM
+        AtmRoom atmRoom = new AtmRoom();
+
+
         // Snake and Ladder
-        Game game = new Game();
-System.out.println("Winner is " + game.startGame());
+//        Game game = new Game();
+//System.out.println("Winner is " + game.startGame());
 
         // Logger (Chain of Responsibility)
 //        LogProcessor logger = new InfoLogProcessor(new WarningLogProcessor(new ErrorLogProcessor(null)));
